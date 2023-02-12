@@ -1,0 +1,38 @@
+.concept
+    padding: 0 16px
+    &-title
+        font-size: 42px
+        font-weight: 700
+        color: #FFFFFF
+        text-align: center
+    &-item
+        display: flex
+        justify-content: space-between
+        align-items: center
+        align-content: center
+        margin-top: 24px
+        &__text
+            background: #202320
+            border-radius: 16px
+            padding: 16px
+        &__title
+            font-size: 32px
+            font-weight: 700
+            color: #BEE137
+        &__subtitle
+            font-size: 16px
+            font-weight: 400
+            color: #737274
+            max-width: 435px
+            line-height: 24px
+        &__img
+            max-width: 133px
+
+@media (max-width: 768px)
+    .concept
+        &-item
+            flex-direction: column
+            &__text
+                order: 1
+            &__img
+                order: 0

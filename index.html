@@ -5,13 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhiteWidow</title>
+    <title>adnative</title>
 
-    <link rel="stylesheet" href="./css/font.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon//favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#00DE16">
+    <meta name="msapplication-TileImage" content="./img/favicon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#181A20">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/splide.min.css">
-
-
+    <link rel="stylesheet" href="./splide/dist/css/splide-core.min.css">
 
 </head>
 
@@ -27,188 +45,184 @@
                 </div>
 
                 <nav class="header-menu">
-                    <ul class="header-list topmenu">
-
+                    <ul class="header-list">
                         <li><a href="#main" class="header-link">Main</a></li>
-                        <li><a href="#about" class="header-link">About us</a></li>
-                        <li><a href="#slider" class="header-link">Conception work</a></li>
-                        <li><a href="#conception" class="header-link">Contacts</a></li>
+                        <li><a href="#about" class="header-link">About Us</a></li>
+                        <li><a href="#concept" class="header-link">Conception work</a></li>
+                        <li><a href="#contact" class="header-link">Contacts</a></li>
                         <li><a href="#" class="header-link dropdown">Documents</a>
                             <ul class="dropdown">
                                 <li><a href="./privacy.html" class="header-link header-submenu__link  down">Privacy policy</a></li>
                                 <li><a href="./terms.html" class="header-link header-submenu__link  down">Terms of use</a></li>
                             </ul>
                         </li>
-
                     </ul>
                 </nav>
-                
-                <a href="index.html" class="header-button">Start Project <img src="./img/arrow-right.svg" alt="arrow-right" class="header-button__icon"></a>
 
+                <a href="#about" class="header-button">Start Project <img src="./img/arrowright.svg" alt="arrow"></a>
             </div>
         </div>
     </header>
 
-
     <main class="main" id="main">
         <div class="container">
-            <div class="main-bg">
-                <div class="main-wrap">
-                    <h1 class="main-title">Full service mobile app <span class="main-title__blue">{development}</span> company</h1>
-                    <img src="./img/main-img.png" alt="phone" class="main__img"></div>
+            <div class="main-wrap">
+                <div class="main-title">
+                    <h1 class="main-title__text">We create</h1>
+                    <h1 class="main-title__anim"><span class="auto-type"></span></h1>
+                    <h1 class="main-title__text">mobile applications</h1>
                 </div>
+
+                <img src="./img/main.png" alt="main" class="main-img">
             </div>
         </div>
     </main>
 
+    <section class="code">
+        <div class="container">
+            <div class="code-wrap">
 
+                <h1 class="code-title">we work</h1>
+                
+                <section class="splide code" aria-label="code">
+                    <div class="splide__track">
+                          <ul class="splide__list">
+                              <li  class="splide__slide"><img src="./img/code/Codepen.png" alt="codepen"></li>
+                              <li  class="splide__slide"><img src="./img/code/Figma.png" alt="figma"></li>
+                              <li  class="splide__slide"><img src="./img/code/Flutter.png" alt="flutter"></li>
+                              <li  class="splide__slide"><img src="./img/code/Framer.png" alt="framer"></li>
+                              <li  class="splide__slide"><img src="./img/code/Gitlab.png" alt="gitlab"></li>
+                              <li  class="splide__slide"><img src="./img/code/intellij-idea.png" alt="idea"></li>
+                              <li  class="splide__slide"><img src="./img/code/Javascript.png" alt="js"></li>
+                              <li  class="splide__slide"><img src="./img/code/Kotlin.png" alt="kotlin"></li>
+                              <li  class="splide__slide"><img src="./img/code/Python.png" alt="python"></li>
+                              <li  class="splide__slide"><img src="./img/code/Sketch.png" alt="sketch"></li>
+                              <li  class="splide__slide"><img src="./img/code/Swift.png" alt="swift"></li>
+                              <li  class="splide__slide"><img src="./img/code/Visual Studio Code.png" alt="vscode"></li>
+                          </ul>
+                    </div>
+                  </section>
+            
+              
+            </div>
+
+            <a href="#concept" class="code-button">more <img src="./img/arrowdown.svg" alt="arrow" class="code-button__img"></a>
+        </div>
+    </section>
+
+    
     <section class="about" id="about">
         <div class="container">
             <div class="about-wrap">
-                <h1 class="about-title"><span class="about-title__blue">&lt;</span>About us<span class="about-title__blue">/&gt;</span></h1>
-
-                <div class="about-item">
-                    <img src="./img/about-img.png" alt="about" class="about-item__img">
-                    <p class="about-item__subtitle">We are a team of application developers, we developed applications on outsourcing and decided that we have a lot of experience in creating mobile applications and decided to develop our products.
-                    <br><br>
-                    By understanding how the mobile app market works, we see what we need to focus on so that our users get the best experience of interacting with our products.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="slider" id="slider">
-        <div class="container">
-            <div class="slider-wrap">
-                <h1 class="slider-title"><span class="about-title__blue">&lt;</span>We are help<span class="about-title__blue">/&gt;</span></h1>
-            </div>
-
-            <div class="splide" role="group" aria-label="Splide Basic HTML Example">
-                <div class="splide__track">
-                    <ul class="splide__list">
-
-                        <li class="splide__slide">
-                            <div class="slider-item__block">
-                                <img src="./img/app-1.png" alt="app" class="slider-item__img">
-                                <div class="slider-item__content">
-                                    <h1 class="slider-item__title">VPN Master Pro</h1>
-                                    <h2 class="slider-item__subtitle">Safety starts with understanding how developers collect and share your data. Data privacy and...</h2>
-                                    <a target="_blank" href="https://play.google.com/store/apps/details?hl=en&id=com.vpnmasterx.pro" class="slider-item__btn">See detail</a>
-                                </div>
-                        </li>
-
-                        <li class="splide__slide">
-                            <div class="slider-item__block">
-                                <img src="./img/app-2.png" alt="app" class="slider-item__img">
-                                <div class="slider-item__content">
-                                    <h1 class="slider-item__title">24GO by 24 Hour Fitness</h1>
-                                    <h2 class="slider-item__subtitle">Achieve the fitness results you want – inside and outside of the gym – with 24GO®, the Official App of 24...</h2>
-                                    <a target="_blank" href="https://apps.apple.com/US/app/id1291447822?l=en&platform=iphone" class="slider-item__btn">See detail</a>
-                                </div>
-                        </li>
-
-                        <li class="splide__slide">
-                            <div class="slider-item__block">
-                                <img src="./img/app-3.png" alt="app" class="slider-item__img">
-                                <div class="slider-item__content">
-                                    <h1 class="slider-item__title">Aloha Browser: private VPN</h1>
-                                    <h2 class="slider-item__subtitle">Aloha Browser is a fast, free, full-featured web browser that provides maximum privacy and security....</h2>
-                                    <a target="_blank" href="https://apps.apple.com/CA/app/id1105317682?l=en" class="slider-item__btn">See detail</a>
-                                </div>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <section class="conception" id="conception">
-        <div class="container">
-            <div class="conception-wrap">
-                <h1 class="conception-title"><span class="conception-title__blue">&lt;</span>Conception work<span class="conception-title__blue">/&gt;</span></h1>
-
-                <div class="conception-item">
-                    <div class="conception-item__content">
-                        <p class="conception-item__subtitle">A deep analysis of the work of applications and user interaction with applications allows us to do our work quickly and smoothly. Our concept is to improve the user experience of interacting with our products. Connect and we will make the world convenient.</p>
-
-                        <a href="#contacts" class="conception-item__btn">Start cooperation</a>
-                    </div>
-                    <img src="./img/conception-img.png" alt="conception" class="conception-item__img">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="contacts" id="contacts">
-        <div class="container">
-            <div class="contacts-wrap">
-                <h1 class="slider-title"><span class="about-title__blue">&lt;</span>Contacts<span class="about-title__blue">/&gt;</span></h1>
-
-                <div class="contacts-item">
-                    <div class="contacts-item__content">
-                        <div class="contacts-item__li">
-                            <p class="contacts-item__title">address</p>
-                            <p class="contacts-item__subtitle">Harju maakond, Tallinn, Lasnamäe linnaosa, Pikri tn 8-78, 13624, Tаllinn, Estoniа
-                            </p>
-                        </div>
-
-                        <div class="contacts-item__li">
-                            <p class="contacts-item__title">owner</p>
-                            <p class="contacts-item__subtitle">Daniel Tomberg</p>
-                        </div>
-
-                        <div class="contacts-item__li">
-                            <p class="contacts-item__title">email</p>
-                            <p class="contacts-item__subtitle">info@whitewidow.digital</p>
-                        </div>
-
-                        <div class="contacts-item__li">
-                            <p class="contacts-item__title">phone</p>
-                            <p class="contacts-item__subtitle">+372 324 8795</p>
+                
+                <h1 class="about-title">About us</h1>
+                
+                <div class="about-content">
+                    <div class="about-content__left">
+                        <img src="./img/about.png" alt="about" class="about-content__img">  
+                        <div class="about-content__team">
+                            <h1 class="about-content__team__title">Our team</h1>
+                            <img src="./img/team.png" alt="team" class="about-content__team__img">
                         </div>
                     </div>
-
-                    <div class="contacts-item__map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2028.7277556090683!2d24.84106775203531!3d59.437614981607055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sHarju%20maakond%2C%20Tallinn%2C%20Lasnam%C3%A4e%20linnaosa%2C%20Pikri%20tn%208-78%2C%2013624%2C%20T%D0%B0llinn%2C%20Estoni%D0%B0Harju%20maakond%2C%20Tallinn%2C%20Lasnam%C3%A4e%20linnaosa%2C%20Pikri%20tn%208-78%2C%2013624%2C%20T%D0%B0llinn%2C%20Estoni%D0%B0!5e0!3m2!1sru!2sru!4v1660731102100!5m2!1sru!2sru"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
+                    <h2 class="about-content__text">We are a small app development company with a focus on creating innovative and user-friendly mobile apps. Our team of experienced developers, designers, and project managers work together to deliver high-quality apps that meet the unique needs of our clients. From concept to launch, we provide a comprehensive and development solution with seamless communication, quick turnaround time, and affordable pricing. Whether you need a simple app for your business or a complex app with advanced features, we have the expertise and passion to bring your vision to life.</h2>
+                      
                 </div>
             </div>
         </div>
     </section>
 
-
-    <footer class="footer">
+    <div class="divider">
         <div class="container">
-            <div class="footer-wrap">
-                 <ul class="footer-item">
-                    <li class="footer-item__list"><a href="#main" class="footer-item__link">Main</a></li>
-                    <li class="footer-item__list"><a href="#about" class="footer-item__link">About us</a></li>
-                    <li class="footer-item__list"><a href="#slider" class="footer-item__link">We are help</a></li>
-                    <li class="footer-item__list"><a href="#conception" class="footer-item__link">Conception</a></li>
-                 </ul>
+            <div class="divider-wrap">
+                <hr class="divider-line">
+                <img src="./img/arrowdown.svg" alt="arrow" class="divider-img">
+                <hr class="divider-line">
+            </div>
+        </div>
+    </div>
 
-                <div class="footer-form">
-                    <h1 class="footer-form__title">We will contact you</h1>
-                    <form action="#" id="form" class="footer-form__forms">
-                        <input type="email" name="email" class="footer-form__input" placeholder="Enter your e-mail">
+    <section class="concept" id="concept">
+        <div class="container">
+            <div class="concept-wrap">
+                <h1 class="concept-title">
+                    Conception work
+                </h1>
+                <div class="concept-item">
+                    <div class="concept-item__text">
+                        <h1 class="concept-item__title">Understanding the needs of our customers</h1>
+                        <h2 class="concept-item__subtitle">Our conception work at the small app development company revolves around understanding our clients' needs and translating their vision into a practical and functional mobile application.</h2>
+                    </div>
+                    <img src="./img/concept1.png" alt="concept" class="concept-item__img">
+                </div>
 
-                        <input type="Submit" value="Submit" class="footer-form__btn">
-                    </form>
+                <div class="concept-item">
+                    <img src="./img/concept2.png" alt="concept" class="concept-item__img">
+                    <div class="concept-item__text">
+                        <h1 class="concept-item__title">Close cooperation with our clients</h1>
+                        <h2 class="concept-item__subtitle">We believe in working closely with our clients to ensure that their needs and requirements are met and that the final product exceeds their expectations. </h2>
+                    </div>
+                </div>
+
+                <div class="concept-item">
+                    <div class="concept-item__text">
+                        <h1 class="concept-item__title">Our primary focus</h1>
+                        <h2 class="concept-item__subtitle">Our primary focus is to create apps that are user-friendly, visually appealing, and easy to navigate.  </h2>
+                    </div>
+                    <img src="./img/concept3.png" alt="concept" class="concept-item__img">
+                </div>
+
+                <div class="concept-item">
+                    <img src="./img/concept4.png" alt="concept" class="concept-item__img">
+                    <div class="concept-item__text">
+                        <h1 class="concept-item__title">Our primary goal</h1>
+                        <h2 class="concept-item__subtitle">Our primary goal is to deliver high-quality apps that provide value to our clients and help them achieve their objectives.</h2>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <div class="divider">
+        <div class="container">
+            <div class="divider-wrap">
+                <hr class="divider-line">
+                <img src="./img/arrowdown.svg" alt="arrow" class="divider-img">
+                <hr class="divider-line">
+            </div>
+        </div>
+    </div>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1 class="contact-title">Contact</h1>
+            <div class="contact-wrap">
+                <div class="contact-text">
+                    <p class="contact-text__company">Company name: <span class="contact-text__span">ADNATIVE LLC</span></p>
+                    <p class="contact-text__address">Address: <span class="contact-text__span">Н.27, N.Tigranyan str., Arabkir 0014, Yerevan, Armenia</span></p>
+                    <p class="contact-text__owner">Owner: <span class="contact-text__span">Mikhail Rozhkov</span></p>
+                    <p class="contact-text__email">E-Mail: <span class="contact-text__span">info@adnative.am</span></p>
+                    <p class="contact-text__number">Number: <span class="contact-text__span">+374 (93) 14-58-67</span></p>
+                </div>
+
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.385682544616!2d44.52121569579053!3d40.20048291367928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd2e593a97c5%3A0x358778dc17d6b0ad!2zMjcgQXJtZW4gVGlncmFueWFuIFN0LCBZZXJldmFuIDAwMDksINCQ0YDQvNC10L3QuNGP!5e0!3m2!1sru!2sru!4v1676116110806!5m2!1sru!2sru" width="400" height="244" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
-    </footer>
+    </section>
 
+    <a href="#main" class="code-button">up <img src="./img/arrowup.svg" alt="arrow" class="code-button__img"></a>
 
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
-    <script src="./js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./splide/dist/js/splide.min.js"></script>
+    <script src="./splide-extension-auto-scroll-master/dist/js/splide-extension-auto-scroll.min.js"></script>
     <script src="./js/splider.js"></script>
     <script src="./js/script.js"></script>
+
 </body>
 
 </html>
