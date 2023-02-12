@@ -1,0 +1,92 @@
+.footer
+    padding: 50px 16px
+    &-wrap
+        background-color: #1B192A
+        border-radius: 40px
+        padding: 50px
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &-item
+        list-style: none
+        &__link
+            text-decoration: none
+            color: #FFFFFF
+            font-size: 22px
+            font-weight: 700
+            line-height: 33px
+            margin-top: 16px
+            transition: 0.3s
+            display: inline-block
+            &:hover
+                color: #007AFF
+    &-form
+        width: 400px
+        &__title
+            font-size: 22px
+            color: #FFFFFF
+            font-weight: 700
+            line-height: 33px
+            margin-bottom: 16px
+        &__forms
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+        &__input
+            background-color: #1B192A
+            color: #FFFFFF
+            font-size: 14px
+            font-weight: 400
+            line-height: 21px
+            border: none
+            border-bottom: 1px solid #737274
+            width: 220px
+            position: relative
+            padding: 8px
+            transition: 0.3s
+            &::placeholder
+                color: #737274
+                font-size: 14px
+            &:focus
+                border: none
+        &__btn
+            text-decoration: none
+            background-color: #007AFF
+            color: #ffffff
+            font-size: 14px
+            padding: 12px 50px
+            border-radius: 50px
+            border: none
+            display: inline-block
+            margin-top: 32px
+            transition: 0.3s
+            z-index: 5
+            &:hover
+                cursor: pointer
+                background-color: #0965c7
+                box-shadow: 0px -9px 32px rgba(29, 98, 172, 0.16)
+
+
+@media (max-width: 768px)
+    .footer
+        padding: 0px 16px
+        padding-bottom: 50px
+        &-form
+            width: 300px
+
+@media (max-width: 500px)
+    .footer
+        &-wrap
+            flex-direction: column
+            align-content: center
+            align-items: center
+            text-align: center
+        &-item
+            padding: 0
+        &-form
+            margin-top: 50px
+            width: auto
+            text-align: center
+            &__forms
+                align-items: center
+                align-content: center

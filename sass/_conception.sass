@@ -1,0 +1,104 @@
+.conception
+    padding: 40px 16px
+    &-wrap
+        display: flex
+        flex-direction: column
+        align-content: center
+        align-items: center
+        position: relative
+    &-title
+        font-size: 85px
+        line-height: 128px
+        font-weight: 700
+        color: #1B1827
+        z-index: -4
+        &__blue
+            color: #007AFF
+            display: inline
+    &-item
+        background-color: #1B192A
+        border-radius: 40px
+        border: none
+        display: flex
+        align-items: center
+        width: 100%
+        height: 100%
+        box-shadow: 0px -9px 32px rgba(29, 98, 172, 0.16)
+        &__content
+            padding: 0 50px
+        &__btn
+            text-decoration: none
+            background-color: #007AFF
+            color: #ffffff
+            font-size: 14px
+            padding: 12px 24px
+            border-radius: 50px
+            border: none
+            display: inline-block
+            margin-top: 32px
+            transition: 0.3s
+            z-index: 5
+            &:hover
+                cursor: pointer
+                background-color: #0965c7
+                box-shadow: 0px -9px 32px rgba(29, 98, 172, 0.16)
+        &__img
+            width: 420px
+            height: 370px
+            border-radius: 40px
+            border: none
+            margin: 0
+            padding: 0
+            object-fit: cover
+            object-position: 50% 50%
+        &__subtitle
+            color: #FFFFFF
+            font-size: 16px
+            font-weight: 500
+            line-height: 24px
+
+
+
+
+@media (max-width: 768px)
+    .conception
+        padding: 100px 16px
+        &-title
+            font-size: 60px
+            margin-bottom: 24px
+        &-item
+            &__img
+                width: 300px
+                height: 400px
+                object-position: -130px 0px
+            &__subtitle
+                font-size: 14px
+                line-height: 20px
+
+@media (max-width: 500px)
+    .conception
+        padding: 150px 16px
+        padding-bottom: 100px
+        &-title
+            font-size: 32px
+            line-height: 40px
+            text-align: center
+        &-item
+            flex-direction: column
+            align-items: center
+            align-content: center
+            text-align: center
+            &__content
+                order: 2
+                padding: 32px 16px
+            &__img
+                width: 100%
+                height: auto
+                object-position: 0px 0px
+                margin: 0
+                padding: 0
+            &__subtitle
+                font-size: 14px
+                line-height: 20px
+            &__btn
+                margin-top: 16px
